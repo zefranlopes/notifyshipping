@@ -1,8 +1,7 @@
 ### API Notificação de Envio com Testes Unitários (Python)
 
-### Repositorio
-* https://notifyshipping.herokuapp.com/ 
-* https://git.heroku.com/notifyshipping.git
+### Repositorio / Hospedagem Heroku
+* https://sheltered-earth-10624.herokuapp.com
 
 ### Ambiente
 * Python 3.7
