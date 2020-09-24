@@ -1,7 +1,12 @@
 ### API Notificação de Envio com Testes Unitários (Python)
 
-### Repositorio / Hospedagem Heroku
-* https://sheltered-earth-10624.herokuapp.com
+### Executando Localmente
+```mysql
+git clone https://github.com/zefranlopes/notifyshipping.git
+pip install -r requirements.text
+python ws.py
+python tests.py
+```
 
 ### Ambiente
 * Python 3.7
@@ -13,13 +18,13 @@
 * AioHttp
 * SQLAlchemy
 
-### Banco de Dados (*não requer instalação, siga o passo 4.)
+### Banco de Dados (*não requer instalação)
 * Postgres (ElephantSQL hospedado no Heroku (Free))
 * SQlite (Mocar Dados de Testes)
 
 
 ### Documentação Básica
-* hhttps://docs.aiohttp.org/en/v3.0.1/
+* https://docs.aiohttp.org/en/v3.0.1/
 * https://docs.python.org/3/library/unittest.html
 
 ### Bibliotecas Utilizada em Teste Unitários 
