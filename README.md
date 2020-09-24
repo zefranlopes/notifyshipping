@@ -48,7 +48,7 @@
 | payload | JSON | Mensagem da Notificação |
 
 
-#### 3) Estrutura da Tabela:
+#### 3) Estrutura dos Arquivos:
 
 	|ws
 	|db
@@ -72,6 +72,8 @@
 	```bash
 	exceptions - arquivo exceptions customizadas 
 	```
+
+
 	```bash
 	tests - arquivo coleciona uma suite de tetes da API e Banco de Dados
 	```
