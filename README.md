@@ -57,26 +57,30 @@
 	|exceptions 
 	|tests
 
-	```bash
-	ws - arquivo webservice da aplicacao
-	```
-	```bash
-	db - arquivo conexão com banco de dados (server / mock)
-	```
-	```bash
-	model - arquivo estrutura des tabelas
-	```
-	```bash
-	controller - arquivo para realizar as regras de negocios (ws -> controller -> model)
-	```
-	```bash
-	exceptions - arquivo exceptions customizadas 
-	```
-
-
-	```bash
-	tests - arquivo coleciona uma suite de tetes da API e Banco de Dados
-	```
+```mysql
+ws 
+arquivo webservice da aplicacao
+```
+```mysql
+db 
+arquivo conexão com banco de dados (server / mock)
+```
+```mysql
+model 
+arquivo estrutura des tabelas
+```
+```mysql
+controller 
+arquivo para realizar as regras de negocios (ws -> controller -> model)
+```
+```mysql
+exceptions 
+arquivo exceptions customizadas 
+```
+```mysql
+tests 
+arquivo coleciona uma suite de tetes da API e Banco de Dados
+```
 
 #### 4) Rodar Aplicação e Testes (LOCAL):
 * py3 ws.py
